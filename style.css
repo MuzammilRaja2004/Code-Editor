@@ -1,0 +1,46 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  body {
+    height: 100vh;
+    display: flex;
+    
+  }
+  .code-area {
+    display: flex;
+    flex-direction:column;
+    width: 50%;
+    margin: 0.5rem 0 0 0.5rem;
+   
+   
+  }
+  .code-area textarea {
+    border:1px solid #555; 
+    resize: none;
+    outline: none;
+    width: 100%;
+    height: 33.33%;
+    font-size: 18px;
+    padding: 10px;
+    margin-bottom: 0.5rem;
+    border-radius: 2px;
+    font-family: sans-serif;
+  }
+  .code-area textarea:focus{
+    border: 2px solid #88B2F8;
+  }
+  .preview-area{
+    border: none;
+    width: 50%;
+    border: 2px solid #88B2F8; 
+    border-radius: 2px;
+    margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+  }
+  .preview-area iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+ 
+  }
